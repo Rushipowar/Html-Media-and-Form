@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+</head>
+<body>
+    <center>
+        <h1>SignUp Page</h1>
+        <form action="" method="get" style="line-height: 30px;">
+            <fieldset>
+              <legend>SignUp Now</legend>
+
+              <label for="fname">Firstname: </label>
+              <input type="text" placeholder="Ram" id="fname" required minlength="3"> <br>
+
+              <label for="lname">Lastname: </label>
+              <input type="text" placeholder="Yadav" id="lname" required minlength="3"> <br>
+
+              <label for="fname">Email: </label>
+              <input type="email" placeholder="xyz@gmail.com" id="email" required minlength="3"> <br>
+
+              <label for="phone">Number: </label>
+              <input type="tel" id="phone" placeholder="1234567890" required> <br>
+
+              <label for="password">Password: </label>
+              <input type="password" placeholder="Enter Your Password" id="password" required> <br>
+
+              <label for="cpassword">Confirm Password: </label>
+              <input type="password" placeholder="Confirm Your Password" id="cpassword" required> <br>
+
+              <label for="age">Age: </label>
+              <input type="number" placeholder="+18" id="age" required min="1" max="150"> <br>
+
+              <label for="gender">Gender: </label>
+              <input type="radio" value="male" name="gender" required> Male
+              <input type="radio" value="female" name="gender" required> Female <br>
+
+              <label for="terms">Agree to Terms and Conditions:- </label>
+              <input type="checkbox" id="terms" required> <br>
+
+              <button type="submit">SignUp</button>
+            </fieldset>
+        </form>
+    </center>
+</body>
+</html>
